@@ -21,3 +21,4 @@ const handleSearch = evt => {
 
 // event listeners
 search.addEventListener("keyup", handleSearch);
+search.addEventListener("search", handleSearch);
