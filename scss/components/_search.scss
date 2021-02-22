@@ -1,0 +1,16 @@
+#search {
+    display: block;
+    width: 55%;
+    @include block-center;
+    margin-top: 2.5em;
+    padding: 10px;
+    border: none;
+    background-color:$white;
+    border-bottom: 3px solid $color-accent;
+    border-radius: 3px;
+    outline: none;
+    transition: border .2s;
+    &:focus {
+       border: 3px solid $color-accent;
+    }
+}
