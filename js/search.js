@@ -1,6 +1,6 @@
 // variables
 const search = document.getElementById("search");
-const galleryItems = document.querySelectorAll(".gallery-item");
+const galleryItems = document.getElementsByClassName("gallery-item");
 
 
 // functions

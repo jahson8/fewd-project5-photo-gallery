@@ -9,21 +9,19 @@
     margin-bottom: 1em;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     justify-items: center;
-    align-items: center;
-    column-gap: 20px;
-    row-gap: 20px;
+    gap: 20px;
     &-item{
         overflow: hidden;
     }
+
 
     &-img {
         max-width: 100%;
         display: block;
         height: auto;
         border-radius: 5px;
-        transition: transform .8s;
-        &:hover,
-        &:focus {
+        transition: transform .6s;
+        &:hover {
             transform: scale(1.1);
         }
     }

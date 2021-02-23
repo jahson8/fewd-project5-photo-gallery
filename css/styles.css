@@ -374,18 +374,21 @@ h1 {
   margin-bottom: 1em;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   justify-items: center;
-  align-items: center;
-  column-gap: 20px;
-  row-gap: 20px; }
+  gap: 20px; }
   .gallery-item {
     overflow: hidden; }
+  .gallery-a {
+    outline: none;
+    transition: outline .3s ease-out; }
+    .gallery-a:focus {
+      outline: 3px solid #108484; }
   .gallery-img {
     max-width: 100%;
     display: block;
     height: auto;
     border-radius: 5px;
-    transition: transform .8s; }
-    .gallery-img:hover, .gallery-img:focus {
+    transition: transform .6s; }
+    .gallery-img:hover {
       transform: scale(1.1); }
 
 /*# sourceMappingURL=styles.css.map */
